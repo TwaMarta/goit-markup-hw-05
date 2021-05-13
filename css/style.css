@@ -97,12 +97,27 @@ span {
 
 .header-links {
   margin-left: auto;
+  fill: #757575;
+  display: flex;
+  align-items: center;
 }
 .header__link {
-  align-items: center;
   color: var(--secondary-color);
   margin: 32px 27px 32px 50px;
   min-width: 110px;
+  display: flex;
+}
+
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .header__nav-link:hover,
@@ -111,6 +126,7 @@ span {
 .header__link:focus {
   color: var(--third-color);
   cursor: pointer;
+  fill: var(--third-color);
 }
 
 .underline::after {
